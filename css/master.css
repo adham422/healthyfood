@@ -664,12 +664,19 @@ header .title2::before {
         margin-bottom: 197px;
         position: relative;
         top: -970px;
-        height: 200px;
+        height: auto;
         text-align: left !important;
     }
-    .home-title p {
-        text-shadow: none;
-    }
+   .home-title p {
+    color: #dadada;
+    text-shadow: none;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 6px;
+    font-size: 1rem;
+    font-weight: 100;
+}
     .services-photo img {
         height: 300px;
         margin: auto;
@@ -691,6 +698,16 @@ header .title2::before {
 }
 .contact input {
     line-height: 1rem;
+}
+    .services {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: auto;
+    gap: 100px;
+    padding: 15px;
+    position: relative;
+    top: 200px;
+    text-align: center;
 }
 }
 @media (max-width:400px) {
@@ -755,5 +772,25 @@ header .title2::before {
     header {
         justify-content: center;
     }
+    .afterr-1 {
+        background-color: #f7f7f7;
+        width: 251px;
+        margin: auto;
+        margin-bottom: 197px;
+        position: relative;
+        top: -970px;
+        height: auto;
+        text-align: left !important;
+    }
+    .services {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: auto;
+    gap: 100px;
+    padding: 15px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
     
 }
